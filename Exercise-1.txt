@@ -1,0 +1,101 @@
+=========================================
+EXERCISE 1 : Pseudocode Challenge 
+=========================================
+
+
+
+==========================
+1. NEWTON SECOND LAW 
+ ==========================
+ALGORITMA 
+1. Simpan "masa benda" dengan nilai 600
+2. simpan "percepatan" dengan nilai 2 
+3. simpan "resultan gaya" dengan nilai berapapun
+4. hitung "masa benda" x "percepatan"
+5. beri nilai "resultan gaya " dengan hasil hitung 
+6. tampilkan "resultan gaya" 
+
+PSEUDOCODE 
+
+STORE "masa benda" with 600
+STORE "percepatan" WITH 2 
+sTORE "Resultan gaya" without any value 
+CALCULATE "masa benda" times "percepatan"
+SET "resultan gaya" VALUE WITH CALCULATION RESULT 
+PRINT "resultan gaya" 
+
+==========================
+ 2. TAHUN KABISAT 
+==========================
+ALGORITMA 
+
+1. Simpan "tahun" dengan nilai berapapun 
+2. Jika "tahun" habis dibagi 4 dan "tahun" tidak habis 100 maka lanjutkan ke langkah ke3 
+    2a. jika "tahun" habis dibagi 4 dan "tahun" habis dibagi 100 dan "tahun" habis dibagi 400 maka lanjutkan ke tahap 3
+    2b. jika "tahun" bukan kondisi dari langkah 2 dan langkah 2b maka lanjutkan ke langkah 4 
+3. tampilkan "tahun" sebagai tahun kabisat 
+4. tampilkan "tahun" sebagai bukan tahun kabisat 
+
+PSEUDOCODE
+
+STORE "tahun" with any value 
+if "tahun" mod 4==0  AND "tahun" mod  100 !==0
+    PRINT  "tahun kabisat"
+ELSE IF "tahun" mod 4==0  AND 'tahun' mod 100 ===0 AND "tahun"  mod 400===0
+    PRINT "tahun kabisat" 
+ELSE 
+    PRINT "bukan tahun kabisat" 
+
+==========================
+3. LAUNDRY DAY 
+==========================
+ALGORITMA
+-------------------------
+
+1. simpan "baju" dengan nilai 20 
+2. simpan "hitung" dengan nilai 0
+3. masukkan "baju"
+4. jika "hitung" lebih kecil dari "baju"  maka kembali ke langkah 3 jika tidak lanjut ke tahap 4a 
+    4a. jika "hitung" samadengan "baju"  lanjutkan ke langkah 5 
+5. nyalakan mesin cuci 
+
+Pseudocode
+-------------------------
+
+STORE "baju" with 20 
+STORE "hitung" with 0 
+WHILE "hitung" <= "baju" ADD "baju"
+    IF "hitung" =="baju" 
+        DO "nyalakan mesin"
+    ELSE IF 
+        ADD "baju"
+    ENDIF 
+    SET "hitung"= "hitung" +1
+ENDWHILE 
+
+==========================
+4. Periksa Kuku  
+==========================
+ALGORITMA
+1. simpan "siswa" dengan nilai 40 
+2. simpan "hitung" dengan nilai 0 
+3. simpan "kuku_panjang" dengan nilai "true" 
+4. periksa "siswa"
+   4a. jika "hitung" lebih kecil dari "siswa" maka kembali ke langkah 4, jika tidak lanjut ke tahap 4b 
+   4b. jika "kuku_panjang" bernilai "true" maka ke tahap 5, jika tidak ke tahap 6 
+5. Hukum "siswa"
+6. puji "siswa" 
+7. selesai 
+
+
+STORE "siswa" with 40 
+STORE "hitung" with 0 
+STORE "kuku_panjang" with true  
+WHILE "hitung" <= "siswa" DO "periksa siswa"
+        IF  "kuku_panjang"=== true
+            DO "hukum siswa"
+        ELSE IF
+            DO "Puji siswa"
+        ENDIF
+        SET "hitung"= "hitung" +1
+ENDWHILE
