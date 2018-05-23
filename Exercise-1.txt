@@ -39,12 +39,12 @@ ALGORITMA
 PSEUDOCODE
 
 STORE "tahun" with any value 
-if "tahun" mod 4==0  AND "tahun" mod  100 !==0
-    PRINT  "tahun kabisat"
-ELSE IF "tahun" mod 4==0  AND 'tahun' mod 100 ===0 AND "tahun"  mod 400===0
-    PRINT "tahun kabisat" 
+IF "tahun" mod 4 EQUAL to 0 AND "tahun" mod 100 NOT EQUAL 100 
+	PRINT "tahun kabisat"
+ELSE IF "tahun" mod 4 EQUAL to 0 AND "tahun" mod 100 EQUAL to 100 AND "tahun" mod 400 EQUAL to 400
+	PRINT "tahun kabisat"
 ELSE 
-    PRINT "bukan tahun kabisat" 
+	PRINT "Bukan tahun kabisat" 
 
 ==========================
 3. LAUNDRY DAY 
