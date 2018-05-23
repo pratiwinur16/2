@@ -39,7 +39,7 @@ ALGORITMA
 PSEUDOCODE
 
 STORE "tahun" with any value 
-IF "tahun" mod 4 EQUAL to 0 AND "tahun" mod 100 NOT EQUAL 100 
+IF "tahun" mod 4 EQUAL to 0 AND "tahun" mod 100 NOT EQUAL to 0 
 	PRINT "tahun kabisat"
 ELSE IF "tahun" mod 4 EQUAL to 0 AND "tahun" mod 100 EQUAL to 0 AND "tahun" mod 400 EQUAL to 0
 	PRINT "tahun kabisat"
