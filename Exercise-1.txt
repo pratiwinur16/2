@@ -41,7 +41,7 @@ PSEUDOCODE
 STORE "tahun" with any value 
 IF "tahun" mod 4 EQUAL to 0 AND "tahun" mod 100 NOT EQUAL 100 
 	PRINT "tahun kabisat"
-ELSE IF "tahun" mod 4 EQUAL to 0 AND "tahun" mod 100 EQUAL to 100 AND "tahun" mod 400 EQUAL to 400
+ELSE IF "tahun" mod 4 EQUAL to 0 AND "tahun" mod 100 EQUAL to 0 AND "tahun" mod 400 EQUAL to 0
 	PRINT "tahun kabisat"
 ELSE 
 	PRINT "Bukan tahun kabisat" 
