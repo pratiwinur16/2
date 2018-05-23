@@ -19,37 +19,46 @@ switch(bulan1) {
   break; 
   }
   case 4: 
-  { console.log(tanggal + ' April ' + tahun); 
+  { 
+    console.log(tanggal + ' April ' + tahun); 
   break; 
   }
   case 5: 
-  { console.log(tanggal + ' Mei ' + tahun); 
+  { 
+    console.log(tanggal + ' Mei ' + tahun); 
   break;
   }
   case 6: 
-  { console.log(tanggal + ' Juni ' + tahun); 
+  { 
+    console.log(tanggal + ' Juni ' + tahun); 
   break; 
   }  
-  case 7: { console.log(tanggal + ' Juli ' + tahun); 
+  case 7: { 
+    console.log(tanggal + ' Juli ' + tahun); 
   break; 
   }
   case 8: 
-  { console.log(tanggal + ' Agustus ' + tahun); 
+  { 
+    console.log(tanggal + ' Agustus ' + tahun); 
   break; 
   }
-  case 9: { 
-  console.log(tanggal + ' September ' + tahun); 
+  case 9: 
+  { 
+    console.log(tanggal + ' September ' + tahun); 
   break; 
   }
   case 10: 
-  { console.log(tanggal + ' Oktober ' + tahun); 
+  { 
+    console.log(tanggal + ' Oktober ' + tahun); 
   break; 
   }
   case 11: 
-  { console.log(tanggal + ' November ' + tahun); 
+  { 
+    console.log(tanggal + ' November ' + tahun); 
   break; 
   }
-  case 12: { console.log(tanggal + ' Desember ' + tahun); 
+  case 12: { 
+    console.log(tanggal + ' Desember ' + tahun); 
   break; 
   }
   default : { console.log('Bulan tidak tersedia'); }
