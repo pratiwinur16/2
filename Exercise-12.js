@@ -1,13 +1,13 @@
 function konversiMenit(menit) {
   // you can only write your code here!
-  let minutes = Math.floor(menit / 60)
-  let seconds = menit % 60
+  var minutes = Math.floor(menit / 60)
+  var  seconds = menit % 60
   
   if (String(seconds).length === 1) {
     seconds = "0"+seconds
   }
   
-  let hasil = minutes + ":" + seconds
+  var hasil = minutes + ":" + seconds
   
   return String(hasil)
 }
